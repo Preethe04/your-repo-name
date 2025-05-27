@@ -1,0 +1,52 @@
+.contact{
+    display:flex;
+    justify-conetnt:center;
+    align-items: center;
+    flex-direction:column;
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom:40px;
+    color:#000000;
+}
+.col{
+    width:100%;
+    max-width:500px;
+}
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:15px;
+    
+}
+.form-group.icons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-bottom:30px;
+}
+.form-control{
+    border-radius:0 !important;
+    border: none !important;
+}
+::placeholder{
+    text-align:center;;
+    color: #999 !important;
+}
+.wp,.ig{
+    width:250px;
+    height:auto;
+}
+.form-group input,
+.form-group textarea{
+width:100%;
+padding:10px;
+margin-bottom:20px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+button{
+    align-self:center;
+}
+    

@@ -1,0 +1,22 @@
+.about{
+    text-align:center;
+
+}
+.list {
+  list-style-position: inside;
+  padding: 10px;
+  margin:0;
+}
+
+.list li {
+  display: flex;
+   text-align:center; 
+  align-items: center; 
+  margin-bottom: 12px; 
+}
+
+.list h4 {
+    text-align:center;
+    align-items:center;
+  font-weight: 600;
+}
